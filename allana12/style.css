@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    width: 100vw;
+    height: 100px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
+
+div.logo {
+    width: 40%;
+}
+
+div.logo img {
+    width: 30%;
+    height: 4em;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a.HOME {
+    color: orangered;
+    font-size: 1.3rem;
+}
+
+main {
+    display: flex;
+}
+
+ main section.Ryam {
+    width: 50%;
+}
+
+main section.Allana {
+    width: 50%;
+    height: 50em;
+}
+
+h1 {
+    width: 30vw;
+    height:15% ;
+}
+
+p {
+    width: 25vw;
+    height: 10px ;
+}
+
+input {
+    background-color: aliceblue;
+}
+
+ img {
+    width: 50%;
+    height: 30rem;
+}
+
